@@ -9,8 +9,7 @@
 //   btn.randNumber = Math.floor(Math.random() * 12) + 1;
 // }
 
-// I hadn't even thought of using Python-like Classes until I read about them on mozilla docs, because I assumed JS couldn't do it.
-// This looks very familiar to some of my old Python3 stuff.
+// Friend told me to search for JS classes / similar to Python ones
 
 // Quoted from caniuse.com -- "ES6 classes are syntactical sugar to provide a much simpler and clearer syntax to create objects and deal with inheritance."
 
@@ -22,9 +21,9 @@ class Button {
 }
 
 let buttons = $.map($("#buttons").children(), (element) => {
-  let button = new Button(element);
-  console.log(button)
+  let eachButton = new Button(element);
+  console.log(eachButton);
   $(element).on('click', () => {
-    console.log(button.randNumber);
+    console.log(eachButton.randNumber);
   })
 })
