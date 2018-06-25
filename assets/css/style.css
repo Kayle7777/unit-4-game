@@ -21,11 +21,14 @@
   margin: 0 0 7px 7px;
   float:left;
   display:inline-block;
+  text-align: center;
+  font-size: 4.5rem;
+
 }
-#winsLosses {
+#games {
   background-color:cyan;
   height:80px;
-  width:50px;
+  width:70px;
   display:inline-block;
   margin: 0 0 7px 7px;
   font-size: .85rem;
@@ -39,6 +42,8 @@
 }
 #playerScore {
   height:80px;
+  font-size: 3.5rem;
+  text-align: center;
 }
 .clearfix {
   clear:both;
