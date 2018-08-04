@@ -6,11 +6,15 @@ This is my 4th week homework!! :)
 
 * **Jesse Webb** - *All JS, html, CSS* - [Kayle7777](https://github.com/kayle7777)
 
+* ****
+
 ## Notable Concepts / Technologies Used
 
-* **jQuery**
+* *jQuery*
 
-* **Object Oriented** -- Efficient and small, this program is complete in less than 50 lines of code.
+* *Object Oriented* -- Efficient and small, this program is complete in less than 50 lines of code.
+
+* ****
 
 ## Links
 
